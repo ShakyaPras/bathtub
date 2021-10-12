@@ -23,14 +23,14 @@ const Bathtub = () => {
     clearInterval(interval);
     interval = setInterval(() => {
       setLevel((level) => level + 1);
-    }, 1000);
+    }, 2000);
   };
 
   const decrease = () => {
     clearInterval(interval);
     interval = setInterval(() => {
       setLevel((level) => level - 1);
-    }, 1000);
+    }, 2000);
   };
 
   return (
